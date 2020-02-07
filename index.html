@@ -13,5 +13,28 @@
 	<p><a href="linktest.html">Link attempt to linktest</a></p>
 	<p><a href="./linktest.html">Link attempt to linktest with period slash</a></p>
 	<p><a href="http://johnrose-glass.com">Link to my home page</a></p>
+	
+<form name="ntlfysample" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+	
+	
 </body>
 </html>
