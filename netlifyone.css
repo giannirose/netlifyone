@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.centerimage  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1, h2  {
   color: hsla(0,0%,30%,1.0);
 }
