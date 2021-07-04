@@ -9,11 +9,23 @@
 }
 
 .enterbox   {
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr, 200px;
   gap: 20px;
+}
+
+.enter-intro  {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.entry  {
+  grid-column: 2;
+  grid-row: 1;
 }
 
 h1, h2  {
   color: hsla(0,0%,30%,1.0);
 }
+
+
