@@ -8,6 +8,12 @@
   margin-right: auto;
 }
 
+.enterbox   {
+  display:grid;
+  grid-template-columns: 1fr, 200px;
+  gap: 20px;
+}
+
 h1, h2  {
   color: hsla(0,0%,30%,1.0);
 }
